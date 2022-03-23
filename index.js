@@ -1,7 +1,9 @@
-var app = new Vue({ 
-    el: '#app',
-    data: {
-        message: 'Kevin W. Palmer, South Florida, firstnameMiddleInitialLastname@gmail.com'
+
+Vue.createApp({
+    data() {
+      return {
+        message: 'Kevin W. Palmer, South Florida, firstNameMiddleInitialLastName@gmail.com'
+      }
     }
-});
+  }).mount('#app')
 
