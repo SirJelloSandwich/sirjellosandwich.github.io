@@ -7,6 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://sirjellosandwich.github.io',
   base: '/',
+  outDir: 'build',
   vite: {
     plugins: [tailwindcss()]
   }
